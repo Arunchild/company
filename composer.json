@@ -1,0 +1,19 @@
+{
+    "name": "arun/company",
+    "description": "This will be crud operation for company",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "arunkumarV",
+            "email": "arun.gprs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Company\\": "package/arun/company"
+        }
+    },
+}
