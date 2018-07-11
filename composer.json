@@ -17,5 +17,12 @@
         "psr-4": {
             "Company\\": "src/"
         }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Company\\CompanyServiceProvider"
+        ]
+      }
     }
 }
