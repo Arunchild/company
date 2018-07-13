@@ -27,21 +27,10 @@
                             <td> Comapny Name:</td>
                             <td>{{ $item->companyname }}</td>
                         </tr>
+
                         <tr>
-                            <td>TIN</td>
-                            <td>{{ $item->tin }}</td>
-                        </tr>
-                        <tr>
-                            <td>CST</td>
-                            <td>{{ $item->cst }}</td>
-                        </tr>
-                        <tr>
-                            <td> Billing Name:</td>
+                            <td> billingname:</td>
                             <td>{{ $item->billingname }}</td>
-                        </tr>
-                        <tr>
-                            <td> Phone:</td>
-                            <td>{{ $item->phone }}</td>
                         </tr>
                         <tr>
                             <td> Address 1:</td>
@@ -51,9 +40,49 @@
                             <td>Address 2: </td>
                             <td> {{ $item->addressline2 }}</td>
                         </tr>
+
                         <tr>
-                            <td>Terms and conditions</td>
-                            <td colspan="2">{{ $item->terms_and_conditions }}</td>
+                            <td> state:</td>
+                            <td>{{ $item->state }}</td>
+                        </tr>
+                        <tr>
+                            <td> pincode:</td>
+                            <td>{{ $item->pincode }}</td>
+                        </tr>
+                        <tr>
+                            <td> country:</td>
+                            <td>{{ $item->country }}</td>
+                        </tr>
+                        <tr>
+                            <td> mobile:</td>
+                            <td>{{ $item->mobile }}</td>
+                        </tr>
+                        <tr>
+                            <td> gst:</td>
+                            <td>{{ $item->gst }}</td>
+                        </tr>
+                        <tr>
+                            <td> email:</td>
+                            <td>{{ $item->email }}</td>
+                        </tr>
+                        <tr>
+                            <td> website:</td>
+                            <td>{{ $item->website }}</td>
+                        </tr>
+
+                        <tr>
+                            <td> contact_person:</td>
+                            <td>{{ $item->contact_person }}</td>
+                        </tr>
+
+                        <tr>
+                            <td> contact_person_mobile:</td>
+                            <td>{{ $item->contact_person_mobile }}</td>
+                        </tr>
+
+                        <tr>
+                            <td> logo:</td>
+                            <td>{{ $item->logo }}</td>
                         </tr>
                         </tbody>
                     </table>

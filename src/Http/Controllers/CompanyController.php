@@ -43,8 +43,6 @@ class CompanyController extends Controller
     {
 
         $this->validate($request, [
-            'tin' => 'required',
-            'cst' => 'required',
             'companyname' 	=> 'required',
             'addressline1' 	=> 'required',
             'addressline2' 	=> 'required'
@@ -95,8 +93,6 @@ class CompanyController extends Controller
         $company = Company::find($id);
 
         $this->validate($request, [
-            'tin' => 'required',
-            'cst' => 'required',
             'companyname' 	=> 'required',
             'addressline1' 	=> 'required',
             'addressline2' 	=> 'required'
